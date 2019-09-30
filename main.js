@@ -6,8 +6,7 @@ const updateWithAdd = async (event) => {
   
     const i = parseInt(document.querySelector('#firstNumber').value)
     const j = parseInt(document.querySelector('#secondNumber').value)
-    const k = parseInt(document.querySelector('#thirdNumber').value)
-    const ans = i*j*k;
+    const ans = i*j;
     document.querySelector('#result').innerHTML = "Volume is:"+ans
   }
   
