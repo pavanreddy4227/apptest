@@ -7,7 +7,7 @@ const updateWithAdd = async (event) => {
     const i = parseInt(document.querySelector('#firstNumber').value)
     const j = parseInt(document.querySelector('#secondNumber').value)
     const ans = i*j;
-    document.querySelector('#result').innerHTML = "Volume is:"+ans
+    document.querySelector('#result').innerHTML = "Itemsinbags:"+ans
   }
   
 }
